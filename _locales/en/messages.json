@@ -1,0 +1,36 @@
+{
+  "extensionName": {
+    "message": "Copy Link/Tab Name and URL",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Copy the name and URL of a link or a Tab.",
+    "description": "Description of the add-on."
+  },
+  
+  "contextMenuItemOnLink": {
+    "message": "Copy Link Text and URL",
+    "description": "link"
+  },
+  
+  "contextMenuItemOnTab": {
+    "message": "Copy Tab Title and URL",
+    "description": "tab"
+  },
+  "stringOptionsLegend": {
+    "message": "Format. %T = link text, %U = link url",
+    "description": "string"
+  },
+  
+  "stringSave": {
+    "message": "Save",
+    "description": "string"
+  },
+  
+  "stringOptions": {
+    "message": "Options",
+    "description": "string"
+  }
+  
+}

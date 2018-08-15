@@ -1,0 +1,36 @@
+{
+  "extensionName": {
+    "message": "复制链接/标签名称和地址",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "将链接名称和地址复制到剪贴板",
+    "description": "Description of the add-on."
+  },
+  
+  "contextMenuItemOnLink": {
+    "message": "复制链接名称和地址",
+    "description": "link"
+  },
+  
+  "contextMenuItemOnTab": {
+    "message": "复制本标签页标题和地址",
+    "description": "tab"
+  },
+  
+  "stringOptionsLegend": {
+    "message": "格式. %T = 链接文本, %U = 链接地址",
+    "description": "string"
+  },
+  
+  "stringSave": {
+    "message": "保存",
+    "description": "string"
+  },
+  
+  "stringOptions": {
+    "message": "选项",
+    "description": "string"
+  }
+}
