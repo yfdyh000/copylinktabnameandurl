@@ -5,7 +5,7 @@ browser.contextMenus.create({
   id: "clnu-link-context-n",
   title: browser.i18n.getMessage("contextMenuItemOnLink"),
   contexts: ["link"]
-}, onCreated);
+});
 
 function createContextMenuItemOnTab(info) {
   var mainversn = parseInt(info.version.split(".",1)[0]);
@@ -16,7 +16,7 @@ function createContextMenuItemOnTab(info) {
     id: "clnu-tab-context-n",
     title: browser.i18n.getMessage("contextMenuItemOnTab"),
     contexts: [onwhat]
-  }, onCreated);
+  });
 }
 browser.runtime.getBrowserInfo().then(createContextMenuItemOnTab);
 
